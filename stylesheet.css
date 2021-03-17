@@ -1,0 +1,336 @@
+body{
+  margin: 0;
+  text-align: center;
+  width: 100%;
+}
+
+button {
+  background-color: hsl(256, 26%, 20%);
+  font-weight: 400;
+  border-style: solid;
+  border-color: hsl(0, 0%, 98%);
+  border-width: thin;
+  padding: 5px 20px;
+}
+
+.companyLogo {
+  position: relative;
+  left: -30%;
+  margin: 25px auto 5px;
+}
+
+.copyright {
+  margin: auto;
+  margin-top: 80px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 16px;
+  background-image: url(images/vines.svg);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 33;
+}
+
+
+@media screen and (min-width: 300px) {
+
+  .navbarInside{
+    font-family: 'Karla', sans-serif;
+    background-color: hsl(270, 9%, 17%);
+    color: hsl(0, 0%, 98%);
+    padding-bottom: 300px;
+    background-image: url(images/bg-pattern-mobile-nav.svg);
+    background-position: bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+  }
+  .navbarInside h2 {
+    padding-top: 15px;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .navbarInside .firstOption {
+    padding-top: 42px;
+  }
+  .navbarInside button {
+    font-size: 18px;
+    padding: 5px 80px;
+    margin-top: 19px;
+    font-weight: 400;
+    background-color: hsl(270, 9%, 17%);
+  }
+  .menu {
+    margin: 20px -7% auto 0;
+    position: relative;
+    right: -23%;
+  }
+  .menuClose {
+    margin: 20px -7% auto 0;
+    position: relative;
+    right: -23%;
+  }
+
+  .introImg {
+    margin-top: 30px;
+  }
+  .firstImg {
+    width: 100%;
+  }
+
+
+  .containerForImg {
+    background-image: url(images/bg-pattern-intro-left-mobile.svg);
+    background-position: top left;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-color: hsl(256, 26%, 20%);
+    padding-bottom: 100px;
+    color: hsl(0, 0%, 98%);
+  }
+  .container1 {
+    position: relative;
+    font-family: 'DM Serif Display', serif;
+    margin-top: -20px;
+    margin-bottom: 35px;
+  }
+  .container1 img {
+    position: absolute;
+    top: 50%;
+    right: 0%;
+  }
+
+  .container1 .line {
+    width: 30%;
+    margin: 16rem auto .5rem;
+    border-top: 1px solid hsl(296, 30%, 68%);
+  }
+
+  .container1 h1 {
+    font-size: 2.7em;
+    padding: 100px 0 20px 0;
+  }
+  .container1 p {
+    font-size: 13px;
+    font-family: 'Karla', sans-serif;
+    width: 70%;
+    position: relative;
+    left: 15%;
+  }
+  .container1 button {
+    font-family: 'Karla', sans-serif;
+    margin-top: 19px;
+    font-size: 12px;
+  }
+
+  .container2 {
+    font-family: 'DM Serif Display', serif;
+    color: hsl(270, 9%, 17%);
+    margin-bottom: 100px;
+  }
+  .container2 h1 {
+    font-size: 4.3rem;
+    margin-bottom: 85px;
+  }
+  .container2 h2 {
+    font-size: 2.4rem;
+    margin-bottom: 12px;
+  }
+  .container2 img {
+    margin-bottom: 16px;
+  }
+  .container2 p {
+    font-family: 'Karla', sans-serif;
+    font-size: 13px;
+    color: hsl(273, 4%, 51%);
+    width: 82.43%;
+    margin: auto;
+    padding-bottom: 45px;
+  }
+
+  .container3 {
+    font-family: 'DM Serif Display', serif;
+    color: hsl(0, 0%, 98%);
+    background-color: hsl(256, 26%, 20%);
+    width: 87%;
+    margin: auto;
+    margin-bottom: 150px;
+    padding-bottom: 65px;
+    background-image: url(images/bg-pattern-how-we-work-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 56% 93%;
+  }
+  .container3 h2 {
+    font-size: 2.8rem;
+    width: 60%;
+    margin: auto;
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+  .container3 button {
+    font-family: 'Karla', sans-serif;
+    font-size: 12px;
+  }
+
+
+  .social-media {
+    background-image: url(images/bg-pattern-footer-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 80px;
+    padding-bottom: 30px;
+  }
+  .social-media .companyLogo-bottom {
+    display: block;
+    margin: auto;
+    margin-bottom: 28px;
+    width: 26%;
+  }
+  .social-media .logo {
+    margin-right: 12px;
+    width: 5.5%;
+  }
+
+  .line {
+    width: 86%;
+    margin: 30px auto;
+    padding-bottom: 30px;
+    border-top: 1px solid hsl(216, 30%, 68%);
+  }
+
+  .footer {
+    font-family: 'Karla', sans-serif;
+    color: hsl(270, 9%, 17%);
+    font-weight: 800;
+    font-size: 12px;
+    margin-bottom: 40px;
+  }
+  .footer .head {
+    color: hsl(273, 4%, 51%);
+    margin: 37px auto;
+    font-size: 11px;
+  }
+
+}
+
+
+@media screen and (min-width: 1275px) {
+  body {
+    text-align: left;
+    /* overflow-x: hidden; */
+  }
+
+  .companyLogo {
+    position: relative;
+    left: 14%;
+  }
+
+  .navbarInside {
+    background-image: none;
+    padding-bottom: 0;
+    background-color: transparent;
+    color: hsl(273, 4%, 51%);
+    margin: 0;
+    position: absolute;
+    left: 60%;
+    top: -2.6%;
+    width: 38%;
+  }
+  .navbarInside h2 {
+    display: inline-block;
+    margin-top: 0;
+    margin-right: 25px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .navbarInside button {
+    background-color: white;
+    border-color: hsl(270, 9%, 17%);
+    color: hsl(270, 9%, 17%);
+    font-size: 14px;
+    padding: 3px 20px;
+    border-width: 2.5px;
+    font-weight: 700;
+  }
+
+  .container1 {
+    margin-top: 20px;
+    margin-bottom: 160px;
+    position: relative;
+  }
+  .container1 .firstImg {
+    margin: 0;
+    position: absolute;
+    top:13%;
+    left: 59%;;
+    width: 33%;
+    height: 71%;
+  }
+  .container1 .containerForImg {
+    background-image: none;
+  }
+  .containerForImg h1 {
+    width: 30%;
+    margin-left: 15%;
+    font-size: 3.6em;
+  }
+  .containerForImg p {
+    width: 35%;
+    margin-top: -10px;
+  }
+  .containerForImg button {
+    margin-left: 15%;
+  }
+  .container1 .line-desktop {
+    width: 7.7%;
+    position: absolute;
+    left: 15%;
+    top: 10%;
+    border-top: 1px solid hsl(216, 30%, 68%);
+  }
+  .container1 .line-desktopAndMobile {
+    width: 7.7%;
+    margin: 250px 0 20px 14.9%;
+  }
+
+  .containerForImg .introImg-desktop1 {
+    position: absolute;
+    left: 0;
+    top: 42%;
+    width: 12%;
+  }
+  .containerForImg .introImg-desktop2 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 23%;
+  }
+
+  .container2 {
+    position: relative;
+  }
+  .container2 h1 {
+    margin-left: 14.9%;
+    font-size: 5.2rem;
+  }
+  .container2 p {
+    width:25%;
+    margin: 0;
+  }
+  .container2 .about1 {
+    margin-left: 14.9%;
+  }
+  .container2 .about2, .about3 {
+    position: absolute;
+    top: 35%;
+    width: 90%;
+  }
+  .container2 .about2 {
+    left: 39%;
+  }
+  .container2 .about3 {
+    left: 65%;
+  }
+}
